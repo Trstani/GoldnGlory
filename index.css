@@ -370,6 +370,8 @@ input{
 }
 
 .mapname h3{
+    margin-top: 12px;
+    margin-left: 12px;
     color: gold;
 }
 
