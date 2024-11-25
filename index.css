@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url(./img/Walpaper.jpg);
+    background-size: cover;
+}
+
+
+.head{
+    display: flex;
+    margin: 5px auto;
+}
+
+.head1{
+    display: flex;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+.head2{
+    display: flex;
+    float: right;
+    margin-left: 780px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.ubar{
+    background-color: rgba(250, 235, 215, 0.329);
+    padding: 2px;
+    transition: 0.5s;
+    margin: 12px;
+    border-radius:200px ;
+    height: 50px ;
+    width: 50px ;
+}
+
+.ubar:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.icon{
+    padding: 10px;
+
+}
+
+
+.line{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.line1{
+    background-color:yellow ;
+    width: 100px;
+    height: 4px;
+
+}
+
+.line2{
+    background-color: black;
+    width: 115px;
+    height: 4px;
+}
+
+.profile{
+    display: flex;
+    background-image: url(./img/R.jpeg);
+    background-size: cover;
+    height: 60px;
+}
+
+h4{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.line p{
+    color: black;
+}
+
+.profimg img{
+    width: 60px;
+}
+
+.profname h4{
+    margin-left: 10px;
+
+}
+
+.profname p{
+    margin-left: 10px;
+}
+
+.gold{
+    padding: 12px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.imageGold img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.gold h2{
+    color: rgb(211, 204, 204);
+}
+
+.gem{
+    padding: 12px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.imageGem img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.gem h2{
+    color: rgb(211, 204, 204);
+}
+
+.main{
+    display: flex;
+}
+
+.imageEvt img{
+    width: 200px;
+    height: 100px;
+    margin-left: 12px;
+    
+}
+
+.leftmain{
+   
+}
+
+.sidebar{
+    margin-right: 170px;
+    margin-left: 12px;
+    width: 250px;
+}
+
+.bar{
+    display: flex;
+    padding: 12px;
+    transition: 0.5s;
+}
+
+.icon img{
+    width: 30px;
+
+}
+
+.barname{
+    justify-content: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+.bar:hover{
+    background-color: rgb(67, 104, 138);
+}
+
+.barname:hover{
+    text-decoration: underline;
+    color: coral;
+}
+
+
+.rightmain{
+    
+}
+
+.cont{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 200px;
+    height: 400px;
+    margin-left: 1180px;
+    
+    
+}
+
+.friend{
+    padding: 12px;
+}
+
+.friename{
+    text-align: center;
+}
+
+.gt{
+    background-color: rgba(240, 255, 255, 0.705);
+    padding: 2px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+.gt img{
+    width: 20px;
+    margin-left: 80px;
+}
+
+.gt:hover{
+    background-color: brown;
+}
+
+.Bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.chat{
+    display: flex;
+
+}
+
+.recrut{
+    display: flex;
+    background-color:rgba(59, 85, 141, 0.486) ;
+    padding: 2px;
+    transition: 0.5s;
+}
+
+.chat img{
+    width: 20px;
+    height: 20px;
+}
+
+.recrut h3{
+    text-transform: uppercase;
+    margin-top: 1px;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input{
+    width: 500px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.322);
+    transition: 0.5s;
+    margin-left: 12px;
+}
+
+.recrut:hover{
+    background-color:rgb(67, 104, 138) ;
+
+}
+
+.offer{
+    display: flex;
+    margin-left: 8px;
+}
+
+.goffer{
+    display: flex;
+    background-image: url(./img/OIP.jpeg);
+    background-size: cover;
+    width: 260px;
+    height: 16px;
+    padding: 12px;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.goffer:hover{
+    background-color: black;
+}
+
+.goffer b{
+    color: rgb(255, 217, 2);
+    margin-left: 70px;
+}
+
+.goffer h4{
+    color: rgb(236, 220, 125);
+    margin-left: 5px;
+}
+
+.boffer{
+    background-color:rgba(59, 85, 141, 0.486) ;
+    width: 120px;
+    padding: 12px;
+    height: 16px;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.boffer:hover{
+    background-color:rgb(67, 104, 138) ;
+
+}
+
+.gameselect{
+    display: block;
+    
+}
+
+.bottomright{
+    margin-top: -180px;
+}
+
+.grup{
+    display: flex;
+    margin-left: 375px;
+
+}
+
+.scr1{
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 12px;
+    width: 251px;
+    transition: 0.5s;
+}
+
+
+.scr1 img{
+    width: 40px;
+    margin-top: 6px;
+    margin-left: 100px;
+}
+
+.scr1:hover{
+    background-color: gold;
+}
+
+.scr{
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-left: 6px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+.scr img{
+    width: 60px;
+    margin-left: 95px;
+    margin-top: 5px;
+}
+
+.scr:hover{
+    background-color: gold;
+}
+
+.mapname{
+    background-image: url(./img/R.jpeg);
+    background-size: cover;
+    height: 130px;
+    margin-left: 375px;
+    margin-right: 40px;
+    
+}
+
+.mapname h3{
+    color: gold;
+}
+
+.start{
+    display: flex;
+    background-color: brown;
+    height: 60px;
+    margin-left: 375px;
+    margin-right: 40px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.start h2{
+    color: gold;
+    margin: 15px 0px 0px 235px;
+    
+}
+
+.start:hover{
+    background-color: black;
+    color: white;
+}
